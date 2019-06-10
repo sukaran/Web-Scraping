@@ -1,0 +1,1017 @@
+Microsoft Windows [Version 10.0.17763.529]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\sgsox>python
+Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)] :: Anaconda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import requests
+>>> import bs4
+>>> res = request.get(https//:sukaran.github.io)
+  File "<stdin>", line 1
+    res = request.get(https//:sukaran.github.io)
+                             ^
+SyntaxError: invalid syntax
+>>> res = request.get(https://sukaran.github.io)
+  File "<stdin>", line 1
+    res = request.get(https://sukaran.github.io)
+                           ^
+SyntaxError: invalid syntax
+>>> res = requests.get(https://sukaran.github.io)
+  File "<stdin>", line 1
+    res = requests.get(https://sukaran.github.io)
+                            ^
+SyntaxError: invalid syntax
+>>> res = requests.get('https://sukaran.github.io')
+>>> res.type
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'Response' object has no attribute 'type'
+>>> res.type()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'Response' object has no attribute 'type'
+>>> type(res)
+<class 'requests.models.Response'>
+>>> res.text
+'<!DOCTYPE HTML>\n<html>\n\t<head>\n\t<meta charset="utf-8">\n\t<meta http-equiv="X-UA-Compatible" content="IE=edge">\n\t<title>Profile &mdash; Sukaran</title>\n\t<meta name="viewport" content="width=device-width, initial-scale=1">\n\t<meta name="description" content="SukaranGrover" />\n\t<meta name="keywords" content="SukaranGrover,Machinelearning,artifical intelligence" />\n\t<!-- <meta name="author" content="freehtml5.co" /> -->\n\n\t\n\n  \t<!-- Facebook and Twitter integration -->\n\t<meta property="og:title" content=""/>\n\t<meta property="og:image" content=""/>\n\t<meta property="og:url" content=""/>\n\t<meta property="og:site_name" content=""/>\n\t<meta property="og:description" content=""/>\n\t<meta name="twitter:title" content="" />\n\t<meta name="twitter:image" content="" />\n\t<meta name="twitter:url" content="" />\n\t<meta name="twitter:card" content="" />\n\n\t<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">\n\t<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">\n\t\n\t<!-- Animate.css -->\n\t<link rel="stylesheet" href="css/animate.css">\n\t<!-- Icomoon Icon Fonts-->\n\t<link rel="stylesheet" href="css/icomoon.css">\n\t<!-- Bootstrap  -->\n\t<link rel="stylesheet" href="css/bootstrap.css">\n\n\t<!-- Theme style  -->\n\t<link rel="stylesheet" href="css/style.css">\n\n\t<!-- Modernizr JS -->\n\t<script src="js/modernizr-2.6.2.min.js"></script>\n\t<!-- FOR IE9 below -->\n\t<!--[if lt IE 9]>\n\t<script src="js/respond.min.js"></script>\n\t<![endif]-->\n\n\t</head>\n\t<body>\n\t\t\n\t<div class="fh5co-loader"></div>\n\t\n\t<div id="page">\t\n\t<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">\n\t\t<div class="overlay"></div>\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-md-8 col-md-offset-2 text-center">\n\t\t\t\t\t<div class="display-t js-fullheight">\n\t\t\t\t\t\t<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">\n\t\t\t\t\t\t\t<div class="profile-thumb" style="background: url(images/sukiuser.jpg);"></div>\n\t\t\t\t\t\t\t<h1><span>Sukaran Grover></h1>\n\t\t\t\t\t\t\t<h3><span>Tech Enthusiast/competitive Programmer/ Data Analyst</span></h3>\n\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t<ul class="fh5co-social-icons">\n\t\t\t\t\t\t\t\t\t<li><a href="https://github.com/sukaran"><i class="icon-github"></i></a></li>\n\t\t\t\t\t\t\t\t\t<li><a href="https://www.instagram.com/sukaran__/"><i class="icon-instagram"></i></a></li>\n\t\t\t\t\t\t\t\t\t<li><a href="https://plus.google.com/u/0/101884892036070646645"><i class="icon-googleplus"></i></a></li>\n\t\t\t\t\t\t\t\t\t<!-- <li><a href="#"><i class="icon-dribbble2"></i></a></li> -->\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</header>\n<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>\n\t\t<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="sukaran-grover-90145b13a"><a class="LI-simple-link" href=\'https://in.linkedin.com/in/sukaran-grover-90145b13a?trk=profile-badge\'>Sukaran Grover</a></div>\n\t<div id="fh5co-about" class="animate-box">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">\n\t\t\t\t\t<h2>About Me</h2>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-md-4">\n\t\t\t\t\t<ul class="info">\n\t\t\t\t\t\t<li><span class="first-block">Full Name:</span><span class="second-block">Sukaran Grover</span></li>\n\t\t\t\t\t\t<li><span class="first-block">Phone:</span><span class="second-block">+91-8528825967</span></li>\n\t\t\t\t\t\t<li><span class="first-block">Email:</span><span class="second-block">sgsoxy8@gmail.com</span></li>\n\t\t\t\t\t\t<li><span class="first-block">Website:</span><span class="second-block">https://sukaran.github.io/</span></li>\n\t\t\t\t\t\t<li><span class="first-block">Address:</span><span class="second-block">#149-E, Civil Lines Colony,Patiala</span></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class="col-md-8">\n\t\t\t\t\t<h2>Hello There!</h2>\n\t\t\t\t\t<p>A B.Tech First year student with keen interest in Machine Learning and Data Analytics. I posess fine technical and communication skills,that enable me in problem solving.</p><!-- \n\t\t\t\t\t<p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p> -->\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<ul class="fh5co-social-icons">\n\t\t\t\t\t\t\t\t<li><a href="https://github.com/sukaran"><i class="icon-github"></i></a></li>\n\t\t\t\t\t\t\t\t<li><a href="https://www.instagram.com/sukaran__/"><i class="icon-instagram"></i></a></li>\n\t\t\t\t\t\t\t\t<li><a href=<!DOCTYPE HTML></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\n\t<div id="fh5co-resume" class="fh5co-bg-color">\n\t\t<div class="container">\n\t\t\t<div class="row animate-box">\n\t\t\t\t<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">\n\t\t\t\t\t<h2>My Resume</h2>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-md-12 col-md-offset-0">\n\t\t\t\t\t<ul class="timeline">\n\t\t\t\t\t\t<li class="timeline-heading text-center animate-box">\n\t\t\t\t\t\t\t<div><h3>Internships</h3></div>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class="animate-box timeline-unverted">\n\t\t\t\t\t\t\t<div class="timeline-badge"><i class="icon-suitcase"></i></div>\n\t\t\t\t\t\t\t<div class="timeline-panel">\n\t\t\t\t\t\t\t\t<div class="timeline-heading">\n\t\t\t\t\t\t\t\t\t<h3 class="timeline-title">E-Cell Delhi Technical University </h3>\n\t\t\t\t\t\t\t                <span class="company">Campus Ambassador at E-CELL DTU jun-2018 to delhi-2018</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class="timeline-inverted animate-box">\n\t\t\t\t\t\t\t<div class="timeline-badge"><i class="icon-suitcase"></i></div>\n\t\t\t\t\t\t\t<div class="timeline-panel">\n\t\t\t\t\t\t\t\t<div class="timeline-heading">\n\t\t\t\t\t\t\t\t\t<h3 class="timeline-title">Cash Karo</h3>\n\t\t\t\t\t\t\t\t\t<span class="company">Social Intern/ Campus Ambassador at Cashkaro.com jun-2018 to aug-2018</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<li class="timeline-heading text-center animate-box">\n\t\t\t\t\t\t\t<div><h3>Education</h3></div>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class="animate-box timeline-unverted">\n\t\t\t\t\t\t\t<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>\n\t\t\t\t\t\t\t<div class="timeline-panel">\n\t\t\t\t\t\t\t\t<div class="timeline-heading">\n\t\t\t\t\t\t\t\t\t<h3 class="timeline-title">Bachelors Degree</h3>\n\t\t\t\t\t\t\t\t\t<span class="company">Thapar University - 2017 - Till date</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class="timeline-body">\n\t\t\t\t\t\t\t\t\t<p>Persuing Computer Science with a current CGPA of 9.3/10 </p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class="timeline-inverted animate-box">\n\t\t\t\t\t\t\t<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>\n\t\t\t\t\t\t\t<div class="timeline-panel">\n\t\t\t\t\t\t\t\t<div class="timeline-heading">\n\t\t\t\t\t\t\t\t\t<h3 class="timeline-title">Intermediate</h3>\n\t\t\t\t\t\t\t\t\t<span class="company">Dudhial Khalsa Sen Sec School- Completed 2017</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class="timeline-body">\n\t\t\t\t\t\t\t\t\t<p>Completed Intermediate with 85 %.\n\t\t\t\t\t\t\t\t\tSubjects:- Physics, Chemistry, Mathematics, Computer and English.</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class="animate-box timeline-unverted">\n\t\t\t\t\t\t\t<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>\n\t\t\t\t\t\t\t<div class="timeline-panel">\n\t\t\t\t\t\t\t\t<div class="timeline-heading">\n\t\t\t\t\t\t\t\t\t<h3 class="timeline-title">High School</h3>\n\t\t\t\t\t\t\t\t\t<span class="company">St. Mary\'s School- Completed 2015</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class="timeline-body">\n\t\t\t\t\t\t\t\t\t<p>Completed High School successfully with 9.6 CGPA(on scale of 10)</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</li>\n\t\t\t    \t</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\n\n\t<div id="fh5co-features" class="animate-box">\n\t\t<div class="container">\n\t\t\t<div class="services-padding">\n\t\t\t\t<div class="row">\n\t\t\t\t\t<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">\n\t\t\t\t\t\t<h2>My Services</h2>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class="row">\n\t\t\t\t\t<div class="col-md-6 text-center">\n\t\t\t\t\t\t<div class="feature-left">\n\t\t\t\t\t\t\t<span class="icon">\n\t\t\t\t\t\t\t\t<i class="icon-paintbrush"></i>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t<div class="feature-copy">\n\t\t\t\t\t\t\t\t<h3>Web Development</h3>\n\t\t\t\t\t\t\t\t<p>Efficient Learner, future web developer and programmer</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\n\t\t\t\t\t<div class="col-md-6 text-center">\n\t\t\t\t\t\t<div class="feature-left">\n\t\t\t\t\t\t\t<span class="icon">\n\t\t\t\t\t\t\t\t<i class="icon-search"></i>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t<div class="feature-copy">\n\t\t\t\t\t\t\t\t<h3>Analytics</h3>\n\t\t\t\t\t\t\t\t<p>Provide full processing and analytics of your data using Data Analytics.</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\n\t\t\t\t<div class="row">\n\n\t\t\t\t\t<div class="col-md-6 text-center">\n\t\t\t\t\t\t<div class="feature-left">\n\t\t\t\t\t\t\t<span class="icon">\n\t\t\t\t\t\t\t\t<i class="icon-genius"></i>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t<div class="feature-copy">\n\t\t\t\t\t\t\t\t<h3>Machine Learning</h3>\n\t\t\t\t\t\t\t\t<p>Ready to model your data and make cool apps involving machine learning.</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div id="fh5co-skills" class="animate-box">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">\n\t\t\t\t\t<h2>Skills</h2>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\n\t\t\t<div class="row row-pb-md">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<div class="col-md-3 col-sm-6 col-xs-12 text-center">\n\t\t\t\t\t<div class="chart" data-percent="90"><span><strong>Django</strong>90%</span></div>\n\t\t\t\t</div>\n\n\t\t\t\t\n\t\t\t\t<div class="col-md-3 col-sm-6 col-xs-12 text-center">\n\t\t\t\t\t<div class="chart" data-percent="85"><span><strong>C++</strong>85%</span></div>\n\t\t\t\t</div>\n\t\t\t\t<div class="col-md-3 col-sm-6 col-xs-12 text-center">\n\t\t\t\t\t<div class="chart" data-percent="90"><span><strong>Python</strong>90%</span></div>\n\t\t\t\t</div>\n\t\t\t\t<div class="col-md-3 col-sm-6 col-xs-12 text-center">\n\t\t\t\t\t<div class="chart" data-percent="85"><span><strong>R</strong>90%</span></div>\n\t\t\t\t</div>\n\t\t\t\t<div class="col-md-3 col-sm-6 col-xs-12 text-center">\n\t\t\t\t\t<div class="chart" data-percent="90"><span><strong>C</strong>80%</span></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-md-6">\n\t\t\t\t\t<div class="progress-wrap">\n\t\t\t\t\t\t<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">95%</span></h3>\n\t\t\t\t\t\t<div class="progress">\n\t\t\t\t\t\t  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"\n\t\t\t\t\t\t  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="progress-wrap">\n\t\t\t\t\t\t<h3><span class="name-left">PHP</span><span class="value-right">90%</span></h3>\n\t\t\t\t\t\t<div class="progress">\n\t\t\t\t\t\t  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"\n\t\t\t\t\t\t  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="progress-wrap">\n\t\t\t\t\t\t<h3><span class="name-left">RStudio</span><span class="value-right">80%</span></h3>\n\t\t\t\t\t\t<div class="progress">\n\t\t\t\t\t\t  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"\n\t\t\t\t\t\t  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="progress-wrap">\n\t\t\t\t\t\t<h3><span class="name-left">SPYDER/PYCHARM</span><span class="value-right">85%</span></h3>\n\t\t\t\t\t\t<div class="progress">\n\t\t\t\t\t\t  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"\n\t\t\t\t\t\t  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class="col-md-6">\n\t\t\t\t\t<div class="progress-wrap">\n\t\t\t\t\t\t<h3><span class="name-left">Arduino</span><span class="value-right">80%</span></h3>\n\t\t\t\t\t\t<div class="progress">\n\t\t\t\t\t\t  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"\n\t\t\t\t\t\t  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div class="progress-wrap">\n\t\t\t\t\t\t<h3><span class="name-left">Digital Electronics</span><span class="value-right">85%</span></h3>\n\t\t\t\t\t\t<div class="progress">\n\t\t\t\t\t\t  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"\n\t\t\t\t\t\t  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="progress-wrap">\n\t\t\t\t\t\t<h3><span class="name-left">Linux</span><span class="value-right">45%</span></h3>\n\t\t\t\t\t\t<div class="progress">\n\t\t\t\t\t\t  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"\n\t\t\t\t\t\t  aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width:45%">\n\t\t\t\t\t\t  </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div id="fh5co-work" class="fh5co-bg-dark">\n\t\t<div class="container">\n\t\t\t<div class="row animate-box">\n\t\t\t\t<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">\n\t\t\t\t\t<h2>Work</h2>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-md-4 text-center col-padding animate-box">\n\t\t\t\t\t<a href="https://github.com/sukaran/Web-App-in-Django" class="work" style="background-image: url(images/portfolio-1.jpg);">\n\t\t\t\t\t\t<div class="desc">\n\t\t\t\t\t\t\t<h3>Web-app Development in Django</h3>\n\t\t\t\t\t\t\t<span>Developed an out of the box web-app for being run on a Local Host.</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class="col-md-4 text-center col-padding animate-box">\n\t\t\t\t\t<a href="https://github.com/sukaran/codechef-cp" class="work" style="background-image: url(images/portfolio-2.jpg);">\n\t\t\t\t\t\t<div class="desc">\n\t\t\t\t\t\t\t<h3>Competitive Programming</h3>\n\t\t\t\t\t\t\t<span>Self-Solved Competitive Programming Programs that are of various levels(Beginner-Medium) on Code-Chef</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class="col-md-4 text-center col-padding animate-box">\n\t\t\t\t\t<a href="https://github.com/sukaran/Mini-Project-with-GUI-ML-Workshop-" class="work" style="background-image: url(images/portfolio-3.png);">\n\t\t\t\t\t\t<div class="desc">\n\t\t\t\t\t\t\t<h3>Regression Data Modeling</h3>\n\t\t\t\t\t\t\t<span>A fully automated system which Inputs any dataset and fits it on various machine learning models and gives extensive comparison details and graph of each model which enables the user to select the best method for model building and prediction.</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class="col-md-4 text-center col-padding animate-box">\n\t\t\t\t\t<a href="https://github.com/sukaran/Sentiment-Analysis-using-TextBlob" class="work" style="background-image: url(images/portfolio-4.jpeg);">\n\t\t\t\t\t\t<div class="desc">\n\t\t\t\t\t\t\t<h3>Sentiment-Analysis</h3>\n\t\t\t\t\t\t\t<span>Sentiment-Analysis program at it\'s very intial stages ,useful for pridicting sentiments on platforms like Twitter.</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="col-md-4 text-center col-padding animate-box">\n\t\t\t\t\t<a href="https://github.com/sukaran/Mini-Project-with-GUI-ML-Workshop-" class="work" style="background-image: url(images/portfolio5.jpg);">\n\t\t\t\t\t\t<div class="desc">\n\t\t\t\t\t\t\t<h3>Complie-Time Calc</h3>\n\t\t\t\t\t\t\t<span>GUI included Multi-Lang Complie-Time Comparison with analysis using plots</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<!-- <div class="col-md-3 text-center col-padding animate-box">\n\t\t\t\t\t<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">\n\t\t\t\t\t\t<div class="desc">\n\t\t\t\t\t\t\t<h3>Project Name</h3>\n\t\t\t\t\t\t\t<span>Brading</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class="col-md-3 text-center col-padding animate-box">\n\t\t\t\t\t<a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">\n\t\t\t\t\t\t<div class="desc">\n\t\t\t\t\t\t\t<h3>Project Name</h3>\n\t\t\t\t\t\t\t<span>Illustration</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t --></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<!-- <div id="fh5co-blog">\n\t\t<div class="container">\n\t\t\t<div class="row animate-box">\n\t\t\t\t<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">\n\t\t\t\t\t<h2>Post on Medium</h2>\n\t\t\t\t\t<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-md-4">\n\t\t\t\t\t<div class="fh5co-blog animate-box">\n\t\t\t\t\t\t<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>\n\t\t\t\t\t\t<div class="blog-text">\n\t\t\t\t\t\t\t<span class="posted_on">Mar. 15th 2016</span>\n\t\t\t\t\t\t\t<h3><a href="#">Photoshoot On The Street</a></h3>\n\t\t\t\t\t\t\t<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>\n\t\t\t\t\t\t\t<ul class="stuff">\n\t\t\t\t\t\t\t\t<li><i class="icon-heart2"></i>249</li>\n\t\t\t\t\t\t\t\t<li><i class="icon-eye2"></i>308</li>\n\t\t\t\t\t\t\t\t<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div> \n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class="col-md-4">\n\t\t\t\t\t<div class="fh5co-blog animate-box">\n\t\t\t\t\t\t<a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>\n\t\t\t\t\t\t<div class="blog-text">\n\t\t\t\t\t\t\t<span class="posted_on">Mar. 15th 2016</span>\n\t\t\t\t\t\t\t<h3><a href="#">Surfing at Philippines</a></h3>\n\t\t\t\t\t\t\t<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>\n\t\t\t\t\t\t\t<ul class="stuff">\n\t\t\t\t\t\t\t\t<li><i class="icon-heart2"></i>249</li>\n\t\t\t\t\t\t\t\t<li><i class="icon-eye2"></i>308</li>\n\t\t\t\t\t\t\t\t<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div> \n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class="col-md-4">\n\t\t\t\t\t<div class="fh5co-blog animate-box">\n\t\t\t\t\t\t<a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>\n\t\t\t\t\t\t<div class="blog-text">\n\t\t\t\t\t\t\t<span class="posted_on">Mar. 15th 2016</span>\n\t\t\t\t\t\t\t<h3><a href="#">Capture Living On Uderwater</a></h3>\n\t\t\t\t\t\t\t<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>\n\t\t\t\t\t\t\t<ul class="stuff">\n\t\t\t\t\t\t\t\t<li><i class="icon-heart2"></i>249</li>\n\t\t\t\t\t\t\t\t<li><i class="icon-eye2"></i>308</li>\n\t\t\t\t\t\t\t\t<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div> \n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div> -->\n\t\n\t<div id="fh5co-started" class="fh5co-bg-dark">\n\t\t<div class="overlay"></div>\n\t\t<div class="container">\n\t\t\t<div class="row animate-box">\n\t\t\t\t<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">\n\t\t\t\t\t<h2>Hire Me!</h2>\n\t\t\t\t\t<p>In Recruiting, there are no good or bad experiences - just learning experiences!!</p>\n\t\t\t\t\t<p><a href="https://plus.google.com/u/0/101884892036070646645" class="btn btn-default btn-lg">Contact Us</a></p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div id="fh5co-consult">\n\t\t<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">\n\t\t\t<div class="overlay"></div>\n\t\t</div>\n\t\t<div class="choose animate-box">\n\t\t\t<h2>Contact</h2>\n\t\t\t<form action="#">\n\t\t\t\t<div class="row form-group">\n\t\t\t\t\t<div class="col-md-6">\n\t\t\t\t\t\t<input type="text" id="fname" class="form-control" placeholder="Your firstname">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class="row form-group">\n\t\t\t\t\t<div class="col-md-6">\n\t\t\t\t\t\t<input type="text" id="lname" class="form-control" placeholder="Your lastname">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class="row form-group">\n\t\t\t\t\t<div class="col-md-12">\n\t\t\t\t\t\t<input type="text" id="email" class="form-control" placeholder="Your email address">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class="row form-group">\n\t\t\t\t\t<div class="col-md-12">\n\t\t\t\t\t\t<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class="row form-group">\n\t\t\t\t\t<div class="col-md-12">\n\t\t\t\t\t\t<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class="form-group">\n\t\t\t\t\t<input type="submit" value="Send Message" class="btn btn-primary">\n\t\t\t\t</div>\n\n\t\t\t</form>\t\n\t\t</div>\n\t</div>\n\n\t<div id="map" class="fh5co-map"></div>\n\t</div>\n\t\n\t<div id="fh5co-footer">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-md-12">\n\t\t\t\t\t<p>&copy Sukaran</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class="gototop js-top">\n\t\t<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>\n\t</div>\n\t\n\t<!-- jQuery -->\n\t<script src="js/jquery.min.js"></script>\n\t<!-- jQuery Easing -->\n\t<script src="js/jquery.easing.1.3.js"></script>\n\t<!-- Bootstrap -->\n\t<script src="js/bootstrap.min.js"></script>\n\t<!-- Waypoints -->\n\t<script src="js/jquery.waypoints.min.js"></script>\n\t<!-- Stellar Parallax -->\n\t<script src="js/jquery.stellar.min.js"></script>\n\t<!-- Easy PieChart -->\n\t<script src="js/jquery.easypiechart.min.js"></script>\n\t<!-- Google Map -->\n\t<!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSbxvcgDfo8x254tOFj2R3EHBV_Zm7VDU&callback=initMap"\n          type="text/javascript"></script>-->\n\t<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSbxvcgDfo8x254tOFj2R3EHBV_Zm7VDU&sensor=false"></script>\n\t<script src="js/google_map.js"></script>\n\t\n\t<!-- Main -->\n\t<script src="js/main.js"></script>\n\n\t</body>\n</html>\n\n'
+>>> soup = bs4.BeautifulSoup(res.text,'lxml')
+>>> type(soup)
+<class 'bs4.BeautifulSoup'>
+>>> hi = soup.select('title')
+>>> hi
+[<title>Profile — Sukaran</title>]
+>>> hi.getText(
+... )
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'getText'
+>>> hi.getText()\
+...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'getText'
+>>> hi.getText()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'getText'
+>>> hi[0].getText()
+'Profile — Sukaran'
+>>> bi = soup.select('body')
+>>> bi
+[<body>
+<div class="fh5co-loader"></div>
+<div id="page">
+<header class="fh5co-cover js-fullheight" data-stellar-background-ratio="0.5" id="fh5co-header" role="banner" style="background-image:url(images/cover_bg_3.jpg);">
+<div class="overlay"></div>
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2 text-center">
+<div class="display-t js-fullheight">
+<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+<div class="profile-thumb" style="background: url(images/sukiuser.jpg);"></div>
+<h1><span>Sukaran Grover&gt;</span></h1>
+<h3><span>Tech Enthusiast/competitive Programmer/ Data Analyst</span></h3>
+<p>
+</p><ul class="fh5co-social-icons">
+<li><a href="https://github.com/sukaran"><i class="icon-github"></i></a></li>
+<li><a href="https://www.instagram.com/sukaran__/"><i class="icon-instagram"></i></a></li>
+<li><a href="https://plus.google.com/u/0/101884892036070646645"><i class="icon-googleplus"></i></a></li>
+<!-- <li><a href="#"><i class="icon-dribbble2"></i></a></li> -->
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<script async="" defer="" src="https://platform.linkedin.com/badges/js/profile.js" type="text/javascript"></script>
+<div class="LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="horizontal" data-vanity="sukaran-grover-90145b13a" data-version="v1"><a class="LI-simple-link" href="https://in.linkedin.com/in/sukaran-grover-90145b13a?trk=profile-badge">Sukaran Grover</a></div>
+<div class="animate-box" id="fh5co-about">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<h2>About Me</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<ul class="info">
+<li><span class="first-block">Full Name:</span><span class="second-block">Sukaran Grover</span></li>
+<li><span class="first-block">Phone:</span><span class="second-block">+91-8528825967</span></li>
+<li><span class="first-block">Email:</span><span class="second-block">sgsoxy8@gmail.com</span></li>
+<li><span class="first-block">Website:</span><span class="second-block">https://sukaran.github.io/</span></li>
+<li><span class="first-block">Address:</span><span class="second-block">#149-E, Civil Lines Colony,Patiala</span></li>
+</ul>
+</div>
+<div class="col-md-8">
+<h2>Hello There!</h2>
+<p>A B.Tech First year student with keen interest in Machine Learning and Data Analytics. I posess fine technical and communication skills,that enable me in problem solving.</p><!--
+                                        <p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p> -->
+<p>
+</p><ul class="fh5co-social-icons">
+<li><a href="https://github.com/sukaran"><i class="icon-github"></i></a></li>
+<li><a href="https://www.instagram.com/sukaran__/"><i class="icon-instagram"></i></a></li>
+<li><a href="&lt;!DOCTYPE" html=""></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="fh5co-bg-color" id="fh5co-resume">
+<div class="container">
+<div class="row animate-box">
+<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<h2>My Resume</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 col-md-offset-0">
+<ul class="timeline">
+<li class="timeline-heading text-center animate-box">
+<div><h3>Internships</h3></div>
+</li>
+<li class="animate-box timeline-unverted">
+<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<h3 class="timeline-title">E-Cell Delhi Technical University </h3>
+<span class="company">Campus Ambassador at E-CELL DTU jun-2018 to delhi-2018</span>
+</div>
+</div>
+</li>
+<li class="timeline-inverted animate-box">
+<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<h3 class="timeline-title">Cash Karo</h3>
+<span class="company">Social Intern/ Campus Ambassador at Cashkaro.com jun-2018 to aug-2018</span>
+</div>
+</div>
+</li>
+<br/>
+<li class="timeline-heading text-center animate-box">
+<div><h3>Education</h3></div>
+</li>
+<li class="animate-box timeline-unverted">
+<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<h3 class="timeline-title">Bachelors Degree</h3>
+<span class="company">Thapar University - 2017 - Till date</span>
+</div>
+<div class="timeline-body">
+<p>Persuing Computer Science with a current CGPA of 9.3/10 </p>
+</div>
+</div>
+</li>
+<li class="timeline-inverted animate-box">
+<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<h3 class="timeline-title">Intermediate</h3>
+<span class="company">Dudhial Khalsa Sen Sec School- Completed 2017</span>
+</div>
+<div class="timeline-body">
+<p>Completed Intermediate with 85 %.
+                                                                        Subjects:- Physics, Chemistry, Mathematics, Computer and English.</p>
+</div>
+</div>
+</li>
+<li class="animate-box timeline-unverted">
+<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<h3 class="timeline-title">High School</h3>
+<span class="company">St. Mary's School- Completed 2015</span>
+</div>
+<div class="timeline-body">
+<p>Completed High School successfully with 9.6 CGPA(on scale of 10)</p>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="animate-box" id="fh5co-features">
+<div class="container">
+<div class="services-padding">
+<div class="row">
+<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<h2>My Services</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 text-center">
+<div class="feature-left">
+<span class="icon">
+<i class="icon-paintbrush"></i>
+</span>
+<div class="feature-copy">
+<h3>Web Development</h3>
+<p>Efficient Learner, future web developer and programmer</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 text-center">
+<div class="feature-left">
+<span class="icon">
+<i class="icon-search"></i>
+</span>
+<div class="feature-copy">
+<h3>Analytics</h3>
+<p>Provide full processing and analytics of your data using Data Analytics.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 text-center">
+<div class="feature-left">
+<span class="icon">
+<i class="icon-genius"></i>
+</span>
+<div class="feature-copy">
+<h3>Machine Learning</h3>
+<p>Ready to model your data and make cool apps involving machine learning.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="animate-box" id="fh5co-skills">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<h2>Skills</h2>
+</div>
+</div>
+</div>
+</div>
+<div class="row row-pb-md">
+<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+<div class="chart" data-percent="90"><span><strong>Django</strong>90%</span></div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+<div class="chart" data-percent="85"><span><strong>C++</strong>85%</span></div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+<div class="chart" data-percent="90"><span><strong>Python</strong>90%</span></div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+<div class="chart" data-percent="85"><span><strong>R</strong>90%</span></div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+<div class="chart" data-percent="90"><span><strong>C</strong>80%</span></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="progress-wrap">
+<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">95%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" style="width:90%">
+</div>
+</div>
+</div>
+<div class="progress-wrap">
+<h3><span class="name-left">PHP</span><span class="value-right">90%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar" style="width:90%">
+</div>
+</div>
+</div>
+<div class="progress-wrap">
+<h3><span class="name-left">RStudio</span><span class="value-right">80%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" style="width:80%">
+</div>
+</div>
+</div>
+<div class="progress-wrap">
+<h3><span class="name-left">SPYDER/PYCHARM</span><span class="value-right">85%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar" style="width:85%">
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="progress-wrap">
+<h3><span class="name-left">Arduino</span><span class="value-right">80%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="100" class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" style="width:100%">
+</div>
+</div>
+</div>
+<div class="progress-wrap">
+<h3><span class="name-left">Digital Electronics</span><span class="value-right">85%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" style="width:85%">
+</div>
+</div>
+</div>
+<div class="progress-wrap">
+<h3><span class="name-left">Linux</span><span class="value-right">45%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="45" class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" style="width:45%">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fh5co-bg-dark" id="fh5co-work">
+<div class="container">
+<div class="row animate-box">
+<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<h2>Work</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 text-center col-padding animate-box">
+<a class="work" href="https://github.com/sukaran/Web-App-in-Django" style="background-image: url(images/portfolio-1.jpg);">
+<div class="desc">
+<h3>Web-app Development in Django</h3>
+<span>Developed an out of the box web-app for being run on a Local Host.</span>
+</div>
+</a>
+</div>
+<div class="col-md-4 text-center col-padding animate-box">
+<a class="work" href="https://github.com/sukaran/codechef-cp" style="background-image: url(images/portfolio-2.jpg);">
+<div class="desc">
+<h3>Competitive Programming</h3>
+<span>Self-Solved Competitive Programming Programs that are of various levels(Beginner-Medium) on Code-Chef</span>
+</div>
+</a>
+</div>
+<div class="col-md-4 text-center col-padding animate-box">
+<a class="work" href="https://github.com/sukaran/Mini-Project-with-GUI-ML-Workshop-" style="background-image: url(images/portfolio-3.png);">
+<div class="desc">
+<h3>Regression Data Modeling</h3>
+<span>A fully automated system which Inputs any dataset and fits it on various machine learning models and gives extensive comparison details and graph of each model which enables the user to select the best method for model building and prediction.</span>
+</div>
+</a>
+</div>
+<div class="col-md-4 text-center col-padding animate-box">
+<a class="work" href="https://github.com/sukaran/Sentiment-Analysis-using-TextBlob" style="background-image: url(images/portfolio-4.jpeg);">
+<div class="desc">
+<h3>Sentiment-Analysis</h3>
+<span>Sentiment-Analysis program at it's very intial stages ,useful for pridicting sentiments on platforms like Twitter.</span>
+</div>
+</a>
+</div>
+<div class="col-md-4 text-center col-padding animate-box">
+<a class="work" href="https://github.com/sukaran/Mini-Project-with-GUI-ML-Workshop-" style="background-image: url(images/portfolio5.jpg);">
+<div class="desc">
+<h3>Complie-Time Calc</h3>
+<span>GUI included Multi-Lang Complie-Time Comparison with analysis using plots</span>
+</div>
+</a>
+</div>
+<!-- <div class="col-md-3 text-center col-padding animate-box">
+                                        <a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
+                                                <div class="desc">
+                                                        <h3>Project Name</h3>
+                                                        <span>Brading</span>
+                                                </div>
+                                        </a>
+                                </div>
+                                <div class="col-md-3 text-center col-padding animate-box">
+                                        <a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
+                                                <div class="desc">
+                                                        <h3>Project Name</h3>
+                                                        <span>Illustration</span>
+                                                </div>
+                                        </a>
+                                 --></div>
+</div>
+</div>
+<!-- <div id="fh5co-blog">
+                <div class="container">
+                        <div class="row animate-box">
+                                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                                        <h2>Post on Medium</h2>
+                                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                                </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-md-4">
+                                        <div class="fh5co-blog animate-box">
+                                                <a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
+                                                <div class="blog-text">
+                                                        <span class="posted_on">Mar. 15th 2016</span>
+                                                        <h3><a href="#">Photoshoot On The Street</a></h3>
+                                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                                        <ul class="stuff">
+                                                                <li><i class="icon-heart2"></i>249</li>
+                                                                <li><i class="icon-eye2"></i>308</li>
+                                                                <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="col-md-4">
+                                        <div class="fh5co-blog animate-box">
+                                                <a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
+                                                <div class="blog-text">
+                                                        <span class="posted_on">Mar. 15th 2016</span>
+                                                        <h3><a href="#">Surfing at Philippines</a></h3>
+                                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                                        <ul class="stuff">
+                                                                <li><i class="icon-heart2"></i>249</li>
+                                                                <li><i class="icon-eye2"></i>308</li>
+                                                                <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="col-md-4">
+                                        <div class="fh5co-blog animate-box">
+                                                <a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
+                                                <div class="blog-text">
+                                                        <span class="posted_on">Mar. 15th 2016</span>
+                                                        <h3><a href="#">Capture Living On Uderwater</a></h3>
+                                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                                        <ul class="stuff">
+                                                                <li><i class="icon-heart2"></i>249</li>
+                                                                <li><i class="icon-eye2"></i>308</li>
+                                                                <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div> -->
+<div class="fh5co-bg-dark" id="fh5co-started">
+<div class="overlay"></div>
+<div class="container">
+<div class="row animate-box">
+<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<h2>Hire Me!</h2>
+<p>In Recruiting, there are no good or bad experiences - just learning experiences!!</p>
+<p><a class="btn btn-default btn-lg" href="https://plus.google.com/u/0/101884892036070646645">Contact Us</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="fh5co-consult">
+<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
+<div class="overlay"></div>
+</div>
+<div class="choose animate-box">
+<h2>Contact</h2>
+<form action="#">
+<div class="row form-group">
+<div class="col-md-6">
+<input class="form-control" id="fname" placeholder="Your firstname" type="text"/>
+</div>
+</div>
+<div class="row form-group">
+<div class="col-md-6">
+<input class="form-control" id="lname" placeholder="Your lastname" type="text"/>
+</div>
+</div>
+<div class="row form-group">
+<div class="col-md-12">
+<input class="form-control" id="email" placeholder="Your email address" type="text"/>
+</div>
+</div>
+<div class="row form-group">
+<div class="col-md-12">
+<input class="form-control" id="subject" placeholder="Your subject of this message" type="text"/>
+</div>
+</div>
+<div class="row form-group">
+<div class="col-md-12">
+<textarea class="form-control" cols="30" id="message" name="message" placeholder="Say something about us" rows="10"></textarea>
+</div>
+</div>
+<div class="form-group">
+<input class="btn btn-primary" type="submit" value="Send Message"/>
+</div>
+</form>
+</div>
+</div>
+<div class="fh5co-map" id="map"></div>
+<div id="fh5co-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<p>&amp;copy Sukaran</p>
+</div>
+</div>
+</div>
+</div>
+<div class="gototop js-top">
+<a class="js-gotop" href="#"><i class="icon-arrow-up22"></i></a>
+</div>
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Stellar Parallax -->
+<script src="js/jquery.stellar.min.js"></script>
+<!-- Easy PieChart -->
+<script src="js/jquery.easypiechart.min.js"></script>
+<!-- Google Map -->
+<!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSbxvcgDfo8x254tOFj2R3EHBV_Zm7VDU&callback=initMap"
+          type="text/javascript"></script>-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSbxvcgDfo8x254tOFj2R3EHBV_Zm7VDU&amp;sensor=false"></script>
+<script src="js/google_map.js"></script>
+<!-- Main -->
+<script src="js/main.js"></script>
+</body>]
+>>> bi[0]
+<body>
+<div class="fh5co-loader"></div>
+<div id="page">
+<header class="fh5co-cover js-fullheight" data-stellar-background-ratio="0.5" id="fh5co-header" role="banner" style="background-image:url(images/cover_bg_3.jpg);">
+<div class="overlay"></div>
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2 text-center">
+<div class="display-t js-fullheight">
+<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+<div class="profile-thumb" style="background: url(images/sukiuser.jpg);"></div>
+<h1><span>Sukaran Grover&gt;</span></h1>
+<h3><span>Tech Enthusiast/competitive Programmer/ Data Analyst</span></h3>
+<p>
+</p><ul class="fh5co-social-icons">
+<li><a href="https://github.com/sukaran"><i class="icon-github"></i></a></li>
+<li><a href="https://www.instagram.com/sukaran__/"><i class="icon-instagram"></i></a></li>
+<li><a href="https://plus.google.com/u/0/101884892036070646645"><i class="icon-googleplus"></i></a></li>
+<!-- <li><a href="#"><i class="icon-dribbble2"></i></a></li> -->
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<script async="" defer="" src="https://platform.linkedin.com/badges/js/profile.js" type="text/javascript"></script>
+<div class="LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="horizontal" data-vanity="sukaran-grover-90145b13a" data-version="v1"><a class="LI-simple-link" href="https://in.linkedin.com/in/sukaran-grover-90145b13a?trk=profile-badge">Sukaran Grover</a></div>
+<div class="animate-box" id="fh5co-about">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<h2>About Me</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<ul class="info">
+<li><span class="first-block">Full Name:</span><span class="second-block">Sukaran Grover</span></li>
+<li><span class="first-block">Phone:</span><span class="second-block">+91-8528825967</span></li>
+<li><span class="first-block">Email:</span><span class="second-block">sgsoxy8@gmail.com</span></li>
+<li><span class="first-block">Website:</span><span class="second-block">https://sukaran.github.io/</span></li>
+<li><span class="first-block">Address:</span><span class="second-block">#149-E, Civil Lines Colony,Patiala</span></li>
+</ul>
+</div>
+<div class="col-md-8">
+<h2>Hello There!</h2>
+<p>A B.Tech First year student with keen interest in Machine Learning and Data Analytics. I posess fine technical and communication skills,that enable me in problem solving.</p><!--
+                                        <p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p> -->
+<p>
+</p><ul class="fh5co-social-icons">
+<li><a href="https://github.com/sukaran"><i class="icon-github"></i></a></li>
+<li><a href="https://www.instagram.com/sukaran__/"><i class="icon-instagram"></i></a></li>
+<li><a href="&lt;!DOCTYPE" html=""></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="fh5co-bg-color" id="fh5co-resume">
+<div class="container">
+<div class="row animate-box">
+<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<h2>My Resume</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 col-md-offset-0">
+<ul class="timeline">
+<li class="timeline-heading text-center animate-box">
+<div><h3>Internships</h3></div>
+</li>
+<li class="animate-box timeline-unverted">
+<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<h3 class="timeline-title">E-Cell Delhi Technical University </h3>
+<span class="company">Campus Ambassador at E-CELL DTU jun-2018 to delhi-2018</span>
+</div>
+</div>
+</li>
+<li class="timeline-inverted animate-box">
+<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<h3 class="timeline-title">Cash Karo</h3>
+<span class="company">Social Intern/ Campus Ambassador at Cashkaro.com jun-2018 to aug-2018</span>
+</div>
+</div>
+</li>
+<br/>
+<li class="timeline-heading text-center animate-box">
+<div><h3>Education</h3></div>
+</li>
+<li class="animate-box timeline-unverted">
+<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<h3 class="timeline-title">Bachelors Degree</h3>
+<span class="company">Thapar University - 2017 - Till date</span>
+</div>
+<div class="timeline-body">
+<p>Persuing Computer Science with a current CGPA of 9.3/10 </p>
+</div>
+</div>
+</li>
+<li class="timeline-inverted animate-box">
+<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<h3 class="timeline-title">Intermediate</h3>
+<span class="company">Dudhial Khalsa Sen Sec School- Completed 2017</span>
+</div>
+<div class="timeline-body">
+<p>Completed Intermediate with 85 %.
+                                                                        Subjects:- Physics, Chemistry, Mathematics, Computer and English.</p>
+</div>
+</div>
+</li>
+<li class="animate-box timeline-unverted">
+<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<h3 class="timeline-title">High School</h3>
+<span class="company">St. Mary's School- Completed 2015</span>
+</div>
+<div class="timeline-body">
+<p>Completed High School successfully with 9.6 CGPA(on scale of 10)</p>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="animate-box" id="fh5co-features">
+<div class="container">
+<div class="services-padding">
+<div class="row">
+<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<h2>My Services</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 text-center">
+<div class="feature-left">
+<span class="icon">
+<i class="icon-paintbrush"></i>
+</span>
+<div class="feature-copy">
+<h3>Web Development</h3>
+<p>Efficient Learner, future web developer and programmer</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 text-center">
+<div class="feature-left">
+<span class="icon">
+<i class="icon-search"></i>
+</span>
+<div class="feature-copy">
+<h3>Analytics</h3>
+<p>Provide full processing and analytics of your data using Data Analytics.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 text-center">
+<div class="feature-left">
+<span class="icon">
+<i class="icon-genius"></i>
+</span>
+<div class="feature-copy">
+<h3>Machine Learning</h3>
+<p>Ready to model your data and make cool apps involving machine learning.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="animate-box" id="fh5co-skills">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<h2>Skills</h2>
+</div>
+</div>
+</div>
+</div>
+<div class="row row-pb-md">
+<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+<div class="chart" data-percent="90"><span><strong>Django</strong>90%</span></div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+<div class="chart" data-percent="85"><span><strong>C++</strong>85%</span></div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+<div class="chart" data-percent="90"><span><strong>Python</strong>90%</span></div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+<div class="chart" data-percent="85"><span><strong>R</strong>90%</span></div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+<div class="chart" data-percent="90"><span><strong>C</strong>80%</span></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="progress-wrap">
+<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">95%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" style="width:90%">
+</div>
+</div>
+</div>
+<div class="progress-wrap">
+<h3><span class="name-left">PHP</span><span class="value-right">90%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar" style="width:90%">
+</div>
+</div>
+</div>
+<div class="progress-wrap">
+<h3><span class="name-left">RStudio</span><span class="value-right">80%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" style="width:80%">
+</div>
+</div>
+</div>
+<div class="progress-wrap">
+<h3><span class="name-left">SPYDER/PYCHARM</span><span class="value-right">85%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar" style="width:85%">
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="progress-wrap">
+<h3><span class="name-left">Arduino</span><span class="value-right">80%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="100" class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" style="width:100%">
+</div>
+</div>
+</div>
+<div class="progress-wrap">
+<h3><span class="name-left">Digital Electronics</span><span class="value-right">85%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" style="width:85%">
+</div>
+</div>
+</div>
+<div class="progress-wrap">
+<h3><span class="name-left">Linux</span><span class="value-right">45%</span></h3>
+<div class="progress">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="45" class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" style="width:45%">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fh5co-bg-dark" id="fh5co-work">
+<div class="container">
+<div class="row animate-box">
+<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<h2>Work</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 text-center col-padding animate-box">
+<a class="work" href="https://github.com/sukaran/Web-App-in-Django" style="background-image: url(images/portfolio-1.jpg);">
+<div class="desc">
+<h3>Web-app Development in Django</h3>
+<span>Developed an out of the box web-app for being run on a Local Host.</span>
+</div>
+</a>
+</div>
+<div class="col-md-4 text-center col-padding animate-box">
+<a class="work" href="https://github.com/sukaran/codechef-cp" style="background-image: url(images/portfolio-2.jpg);">
+<div class="desc">
+<h3>Competitive Programming</h3>
+<span>Self-Solved Competitive Programming Programs that are of various levels(Beginner-Medium) on Code-Chef</span>
+</div>
+</a>
+</div>
+<div class="col-md-4 text-center col-padding animate-box">
+<a class="work" href="https://github.com/sukaran/Mini-Project-with-GUI-ML-Workshop-" style="background-image: url(images/portfolio-3.png);">
+<div class="desc">
+<h3>Regression Data Modeling</h3>
+<span>A fully automated system which Inputs any dataset and fits it on various machine learning models and gives extensive comparison details and graph of each model which enables the user to select the best method for model building and prediction.</span>
+</div>
+</a>
+</div>
+<div class="col-md-4 text-center col-padding animate-box">
+<a class="work" href="https://github.com/sukaran/Sentiment-Analysis-using-TextBlob" style="background-image: url(images/portfolio-4.jpeg);">
+<div class="desc">
+<h3>Sentiment-Analysis</h3>
+<span>Sentiment-Analysis program at it's very intial stages ,useful for pridicting sentiments on platforms like Twitter.</span>
+</div>
+</a>
+</div>
+<div class="col-md-4 text-center col-padding animate-box">
+<a class="work" href="https://github.com/sukaran/Mini-Project-with-GUI-ML-Workshop-" style="background-image: url(images/portfolio5.jpg);">
+<div class="desc">
+<h3>Complie-Time Calc</h3>
+<span>GUI included Multi-Lang Complie-Time Comparison with analysis using plots</span>
+</div>
+</a>
+</div>
+<!-- <div class="col-md-3 text-center col-padding animate-box">
+                                        <a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
+                                                <div class="desc">
+                                                        <h3>Project Name</h3>
+                                                        <span>Brading</span>
+                                                </div>
+                                        </a>
+                                </div>
+                                <div class="col-md-3 text-center col-padding animate-box">
+                                        <a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
+                                                <div class="desc">
+                                                        <h3>Project Name</h3>
+                                                        <span>Illustration</span>
+                                                </div>
+                                        </a>
+                                 --></div>
+</div>
+</div>
+<!-- <div id="fh5co-blog">
+                <div class="container">
+                        <div class="row animate-box">
+                                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                                        <h2>Post on Medium</h2>
+                                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                                </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-md-4">
+                                        <div class="fh5co-blog animate-box">
+                                                <a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
+                                                <div class="blog-text">
+                                                        <span class="posted_on">Mar. 15th 2016</span>
+                                                        <h3><a href="#">Photoshoot On The Street</a></h3>
+                                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                                        <ul class="stuff">
+                                                                <li><i class="icon-heart2"></i>249</li>
+                                                                <li><i class="icon-eye2"></i>308</li>
+                                                                <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="col-md-4">
+                                        <div class="fh5co-blog animate-box">
+                                                <a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
+                                                <div class="blog-text">
+                                                        <span class="posted_on">Mar. 15th 2016</span>
+                                                        <h3><a href="#">Surfing at Philippines</a></h3>
+                                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                                        <ul class="stuff">
+                                                                <li><i class="icon-heart2"></i>249</li>
+                                                                <li><i class="icon-eye2"></i>308</li>
+                                                                <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="col-md-4">
+                                        <div class="fh5co-blog animate-box">
+                                                <a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
+                                                <div class="blog-text">
+                                                        <span class="posted_on">Mar. 15th 2016</span>
+                                                        <h3><a href="#">Capture Living On Uderwater</a></h3>
+                                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                                        <ul class="stuff">
+                                                                <li><i class="icon-heart2"></i>249</li>
+                                                                <li><i class="icon-eye2"></i>308</li>
+                                                                <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div> -->
+<div class="fh5co-bg-dark" id="fh5co-started">
+<div class="overlay"></div>
+<div class="container">
+<div class="row animate-box">
+<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<h2>Hire Me!</h2>
+<p>In Recruiting, there are no good or bad experiences - just learning experiences!!</p>
+<p><a class="btn btn-default btn-lg" href="https://plus.google.com/u/0/101884892036070646645">Contact Us</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="fh5co-consult">
+<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
+<div class="overlay"></div>
+</div>
+<div class="choose animate-box">
+<h2>Contact</h2>
+<form action="#">
+<div class="row form-group">
+<div class="col-md-6">
+<input class="form-control" id="fname" placeholder="Your firstname" type="text"/>
+</div>
+</div>
+<div class="row form-group">
+<div class="col-md-6">
+<input class="form-control" id="lname" placeholder="Your lastname" type="text"/>
+</div>
+</div>
+<div class="row form-group">
+<div class="col-md-12">
+<input class="form-control" id="email" placeholder="Your email address" type="text"/>
+</div>
+</div>
+<div class="row form-group">
+<div class="col-md-12">
+<input class="form-control" id="subject" placeholder="Your subject of this message" type="text"/>
+</div>
+</div>
+<div class="row form-group">
+<div class="col-md-12">
+<textarea class="form-control" cols="30" id="message" name="message" placeholder="Say something about us" rows="10"></textarea>
+</div>
+</div>
+<div class="form-group">
+<input class="btn btn-primary" type="submit" value="Send Message"/>
+</div>
+</form>
+</div>
+</div>
+<div class="fh5co-map" id="map"></div>
+<div id="fh5co-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<p>&amp;copy Sukaran</p>
+</div>
+</div>
+</div>
+</div>
+<div class="gototop js-top">
+<a class="js-gotop" href="#"><i class="icon-arrow-up22"></i></a>
+</div>
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Stellar Parallax -->
+<script src="js/jquery.stellar.min.js"></script>
+<!-- Easy PieChart -->
+<script src="js/jquery.easypiechart.min.js"></script>
+<!-- Google Map -->
+<!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSbxvcgDfo8x254tOFj2R3EHBV_Zm7VDU&callback=initMap"
+          type="text/javascript"></script>-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSbxvcgDfo8x254tOFj2R3EHBV_Zm7VDU&amp;sensor=false"></script>
+<script src="js/google_map.js"></script>
+<!-- Main -->
+<script src="js/main.js"></script>
+</body>
+>>> bi[0].getText()
+"\n\n\n\n\n\n\n\n\n\n\nSukaran Grover>\nTech Enthusiast/competitive Programmer/ Data Analyst\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSukaran Grover\n\n\n\n\nAbout Me\n\n\n\n\n\nFull Name:Sukaran Grover\nPhone:+91-8528825967\nEmail:sgsoxy8@gmail.com\nWebsite:https://sukaran.github.io/\nAddress:#149-E, Civil Lines Colony,Patiala\n\n\n\nHello There!\nA B.Tech First year student with keen interest in Machine Learning and Data Analytics. I posess fine technical and communication skills,that enable me in problem solving.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Resume\n\n\n\n\n\n\nInternships\n\n\n\n\n\nE-Cell Delhi Technical University \nCampus Ambassador at E-CELL DTU jun-2018 to delhi-2018\n\n\n\n\n\n\n\nCash Karo\nSocial Intern/ Campus Ambassador at Cashkaro.com jun-2018 to aug-2018\n\n\n\n\n\nEducation\n\n\n\n\n\nBachelors Degree\nThapar University - 2017 - Till date\n\n\nPersuing Computer Science with a current CGPA of 9.3/10 \n\n\n\n\n\n\n\nIntermediate\nDudhial Khalsa Sen Sec School- Completed 2017\n\n\nCompleted Intermediate with 85 %.\n\t\t\t\t\t\t\t\t\tSubjects:- Physics, Chemistry, Mathematics, Computer and English.\n\n\n\n\n\n\n\nHigh School\nSt. Mary's School- Completed 2015\n\n\nCompleted High School successfully with 9.6 CGPA(on scale of 10)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Services\n\n\n\n\n\n\n\n\n\nWeb Development\nEfficient Learner, future web developer and programmer\n\n\n\n\n\n\n\n\n\nAnalytics\nProvide full processing and analytics of your data using Data Analytics.\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning\nReady to model your data and make cool apps involving machine learning.\n\n\n\n\n\n\n\n\n\n\n\nSkills\n\n\n\n\n\n\nDjango90%\n\n\nC++85%\n\n\nPython90%\n\n\nR90%\n\n\nC80%\n\n\n\n\n\nHTML5/CSS395%\n\n\n\n\n\n\nPHP90%\n\n\n\n\n\n\nRStudio80%\n\n\n\n\n\n\nSPYDER/PYCHARM85%\n\n\n\n\n\n\n\n\nArduino80%\n\n\n\n\n\n\nDigital Electronics85%\n\n\n\n\n\n\nLinux45%\n\n\n\n\n\n\n\n\n\n\n\n\nWork\n\n\n\n\n\n\nWeb-app Development in Django\nDeveloped an out of the box web-app for being run on a Local Host.\n\n\n\n\n\n\nCompetitive Programming\nSelf-Solved Competitive Programming Programs that are of various levels(Beginner-Medium) on Code-Chef\n\n\n\n\n\n\nRegression Data Modeling\nA fully automated system which Inputs any dataset and fits it on various machine learning models and gives extensive comparison details and graph of each model which enables the user to select the best method for model building and prediction.\n\n\n\n\n\n\nSentiment-Analysis\nSentiment-Analysis program at it's very intial stages ,useful for pridicting sentiments on platforms like Twitter.\n\n\n\n\n\n\nComplie-Time Calc\nGUI included Multi-Lang Complie-Time Comparison with analysis using plots\n\n\n\n\n\n\n\n\n\n\n\n\nHire Me!\nIn Recruiting, there are no good or bad experiences - just learning experiences!!\nContact Us\n\n\n\n\n\n\n\n\n\nContact\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&copy Sukaran\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+>>> ci = soup.select('a')
+>>> ci[0].getText()
+''
+>>> ci[1].getText()
+''
+>>> ci[2].getText()
+''
+>>> ci[2]
+<a href="https://plus.google.com/u/0/101884892036070646645"><i class="icon-googleplus"></i></a>
+>>>
